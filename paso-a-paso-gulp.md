@@ -161,9 +161,13 @@ gulp.task('default', gulp.parallel('css', 'sass', 'scripts', 'html'));
 
 **Púedes buscar mas de estos plugins con su documentacion en [gulp.js](https://gulpjs.com/)**
 
-5. Finalmente, debes de origanizar todos los archivos y carpetas que vas a trabajar. Personalmente, yo los tengo configurado de la siguiente manera
+5. Ahora deberas de correr el comando `npm install`, para que se instales todos los modulos del proyecto.
+
+6. Finalmente, debes de origanizar todos los archivos y carpetas que vas a trabajar. Personalmente, yo los tengo configurado de la siguiente manera
 
 ```text
+build/
+node_modules/
 proyecto/
 └── src/
   | ├── fonts/
@@ -196,7 +200,7 @@ proyecto/
   └──README.md
 ```
 
-6. Cuando tengas todo listo, deberas de ejecutar simplemente el comando `gulp` o `gulp watch`, o por lo menos en este caso.
+7. Cuando tengas todo listo, deberas de ejecutar simplemente el comando `gulp` o `gulp watch`, o por lo menos en este caso.
 
-7. Automaticamente, todo el proyecto se te va a compilar, y el navegador predeterminado se te abrira con tu proyecto, esperando por cambios.
+8. Automaticamente, todo el proyecto se te va a compilar, y el navegador predeterminado se te abrira con tu proyecto, esperando por cambios.
 
